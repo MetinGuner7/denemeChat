@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "148408315619",
+    "firebase_url": "https://denemeler-ec447.firebaseio.com",
+    "project_id": "denemeler-ec447",
+    "storage_bucket": "denemeler-ec447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148408315619:android:5e56fc7c796fe7ed",
+        "android_client_info": {
+          "package_name": "com.example.denemechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148408315619-4sm5ovnnb6d3ebe09kle9nb1kct2ds09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denemechat",
+            "certificate_hash": "657161019f748869f7b110ba523257dea92b35e4"
+          }
+        },
+        {
+          "client_id": "148408315619-2fjp8jnv55i4rrn6r8eifc5jcpk5v80i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKf13i53YNblFGCczxWax8nuKLpYsWoCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148408315619-2fjp8jnv55i4rrn6r8eifc5jcpk5v80i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

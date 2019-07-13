@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfil_default"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:onClick="selectPicture"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/profil_default"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:civ_border_color="#000"
+        app:civ_border_width="2dp"/>
+
+    <EditText
+        android:id="@+id/edNickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Kullanıcı adı giriniz..."
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="@+id/imgProfil_default"
+        app:layout_constraintTop_toBottomOf="@+id/imgProfil_default" />
+
+    <Button
+        android:id="@+id/btn_profil_kayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:onClick="upload"
+        android:text="Kaydet"
+        app:layout_constraintEnd_toEndOf="@+id/imgProfil_default"
+        app:layout_constraintTop_toBottomOf="@+id/edNickName"
+        tools:text="Kaydet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
